@@ -44,7 +44,8 @@ public class KeyPadPressTest
         // Press 1
 
         // Assertion (Replace with appropriate test)
-        assertTrue( true );
+        //assertTrue( false );
+		assertEquals("1", "kp.touch(1,1)");
     }
 
    @Test
@@ -53,7 +54,7 @@ public class KeyPadPressTest
         // Press 2
 
         // Assertion (Replace with appropriate test)
-        assertTrue( false );
+        assertEquals("2", "kp.touch(2,1)");
     }
 
    @Test
@@ -62,7 +63,7 @@ public class KeyPadPressTest
         // Press 3
 
         // Assertion (Replace with appropriate test)
-        assertTrue( false );
+        assertEquals("3", "kp.touch(3,3)");
     }
 
    @Test
