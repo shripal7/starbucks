@@ -1,6 +1,6 @@
 
 
-package starbucks ;
+package test.java.starbucks ;
 
 
 import static org.junit.Assert.*;

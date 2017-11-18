@@ -49,7 +49,7 @@ public class KeyPad implements ITouchEventHandler, IDisplayComponent, IKeyPadSub
         return this.lastKey ; 
     }
 
-    private String getKey( int x, int y )
+    public String getKey( int x, int y )
     {
         int kx = 0, ky = 0 ;
         kx = x;
